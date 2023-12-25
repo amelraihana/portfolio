@@ -132,7 +132,7 @@ export default {
         <div class="md:w-11/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
             &nbsp; &nbsp; &nbsp; Hello! 👋 
-            I'm Amelia Raihana Azhan, a final-year computer science student specializing in software engineering. Currently, I'm eagerly seeking an internship opportunity starting in March next year, spanning a duration of 6 months. Proficient in frontend, backend, and full-stack web development, as well as mobile app development, I thrive on the diversity of coding challenges.
+            I'm Amelia Raihana Azhan, a final-year computer science student specializing in software engineering. Currently, I'm eagerly seeking an internship opportunity starting in March next year, spanning a duration of 6 months. Good in frontend, backend, and full-stack web development, as well as mobile app development, I thrive on the diversity of coding challenges.
              
           </p>
           <p class="mb-3 fadein-left fadeins-2">
