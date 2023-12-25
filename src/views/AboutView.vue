@@ -136,7 +136,7 @@ export default {
              
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; But it's not just about coding for me—I possess excellent communication skills and genuinely enjoy interacting with people from various backgrounds. Being self-motivated and maintaining a positive mindset are at the core of my work ethic. 
+            &nbsp; &nbsp; &nbsp; But it's not just about coding for me—I possess good communication skills and genuinely enjoy interacting with people from various backgrounds. Being self-motivated and maintaining a positive mindset are at the core of my work ethic. 
             My primary aim? To creatively convey my clients' messages and identities. Let's build something impactful together!
           </p>
         </div>
