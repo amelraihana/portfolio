@@ -2,7 +2,7 @@
   <main
     class="mt-10 md:mt-1 flex flex-col-reverse gap-8 items-center md:flex-row md:gap-16 md:justify-center min-h-[65vh] md:min-h-[80vh]">
     <div class="space-y-2 text-center md:text-left px-10">
-      <p class="text-fuchsia-200">Hello World, I'm</p>
+      <p class="text-fuchsia-200 font-semibold">Hello World, I'm</p>
       <h1 class="text-4xl font-bold md:text-5xl text-white fadein-up">Amelia Raihana</h1>
       <div class="py-2">
         <h1
@@ -11,12 +11,12 @@
           <span class="wrap">{{ txt }}</span>
         </h1>
       </div>
-      <p class="text-white pr-4 fade-in-from-left">Welcome to my personal website <span class="wave">👋🏼</span></p>
+      <p class="text-white pr-4 fade-in-from-left font-light">Welcome to my personal website <span class="wave">👋🏼</span></p>
       <br>
 
     </div>
-    <div class="flex justify-center md:justify-start fadein-right"><img alt="avatar" fetchpriority="high" width="300" height="300" decoding="async" data-nimg="1"
-        class="w-10/12 md:h-auto rounded-full border-4 border-purple-200 pict" src="https://i.pinimg.com/originals/6b/04/d0/6b04d0071cfc1ba46ff91f05a7945df3.gif">
+    <div class="flex justify-center md:justify-start fadein-right"><img alt="amemoji" fetchpriority="high" width="300" height="300" decoding="async" data-nimg="1"
+        class="w-10/12 md:h-auto rounded-full border-4 border-purple-200 pict" src="/ameliamemoji.png">
     </div>
   </main>
 </template>
