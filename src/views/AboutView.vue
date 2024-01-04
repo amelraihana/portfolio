@@ -92,16 +92,26 @@ export default {
       otherSkills: [
         {
           id: 1,
-          name: 'Communication and Collaboration',
+          name: 'User Research',
           status: null
         },
         {
           id: 2,
-          name: 'Continuous Learning',
+          name: 'UI/UX Design',
           status: null
         },
         {
           id: 3,
+          name: 'Communication and Collaboration',
+          status: null
+        },
+        {
+          id: 4,
+          name: 'Adaptability and Continuous Learning',
+          status: null
+        },
+        {
+          id: 5,
           name: 'Self-Motivated',
           status: null
         }
