@@ -17,7 +17,7 @@ export default {
           id: 2,
           name: 'IstiqamaTracker',
           imageUrl: 'portfolio-istiqamatracker',
-          status: 'A daily ibadah mobile tracker app for Muslims. Features include daily prayer tracker, daily quran recitation tracker and quran memorization, fasting tracker, dhikr tracker, and sadaqah tracker',
+          status: 'A comprehensive daily ibadah mobile tracker app for Muslims. Main features include daily prayer tracker, daily quran recitation tracker and quran memorization, fasting tracker, dhikr tracker, and sadaqah tracker. Meanwhile, additional features consist of authentication, prayer countdown, analytics and dark mode.',
           tech: 'SwiftUI, Firebase',
           github: 'null',
           demo: 'null'
@@ -26,8 +26,17 @@ export default {
           id: 3,
           name: 'Music Discovery App - ongoing',
           imageUrl: 'wip',
-          status: 'A music discovery platform to find new tunes! Integrated with Spotify API to fetch song or nasheeds recommendations based on the user’s favourite genres or artists ',
+          status: 'A music discovery platform to find new tunes! Integrated with Spotify API to fetch song or nasheeds recommendations based on the user’s favourite genres or artists. ',
           tech: 'Flutter, Spotify API',
+          github: 'null',
+          demo: 'null'
+        },
+        {
+          id: 4,
+          name: 'Tic Tac Toe',
+          imageUrl: 'portfolio-tictactoe',
+          status: 'A user-friendly gameplay with win/draw outcomes. ',
+          tech: 'C++',
           github: 'null',
           demo: 'null'
         }
