@@ -67,7 +67,7 @@ export default {
         this.loopNum++;
         delta = 500;
       }
-
+      
       setTimeout(() => {
         that.tick();
       }, delta);

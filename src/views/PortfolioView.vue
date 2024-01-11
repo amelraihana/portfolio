@@ -24,10 +24,10 @@ export default {
         },
         {
           id: 3,
-          name: 'Music Discovery App - ongoing',
-          imageUrl: 'wip',
-          status: 'A music discovery platform to find new tunes! Integrated with Spotify API to fetch song or nasheeds recommendations based on the user’s favourite genres or artists. ',
-          tech: 'Flutter, Spotify API',
+          name: 'Chess Game',
+          imageUrl: 'portfolio-chessgame',
+          status: ' A web-based interactive chess game with dynamic piece movements',
+          tech: 'HTML, CSS, Javascript',
           github: 'null',
           demo: 'null'
         },
@@ -37,6 +37,15 @@ export default {
           imageUrl: 'portfolio-tictactoe',
           status: 'A user-friendly gameplay with win/draw outcomes. ',
           tech: 'C++',
+          github: 'null',
+          demo: 'null'
+        },
+        {
+          id: 5,
+          name: 'Music Discovery App - ongoing',
+          imageUrl: 'wip',
+          status: 'A music discovery platform to find new tunes! Integrated with Spotify API to fetch song or nasheeds recommendations based on the user’s favourite genres or artists. ',
+          tech: 'Flutter, Spotify API',
           github: 'null',
           demo: 'null'
         }
