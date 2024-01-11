@@ -92,7 +92,7 @@ export default {
       otherSkills: [
         {
           id: 1,
-          name: 'User Research',
+          name: 'Requirements Gathering',
           status: null
         },
         {
@@ -142,11 +142,10 @@ export default {
         <div class="md:w-11/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
             &nbsp; &nbsp; &nbsp; Hello! 👋 
-            Hello, I'm Amelia Raihana Azhan, a final-year computer science student with a specialization in software engineering. I'm actively seeking an internship placement starting in March, spanning six months. My focus areas revolve around requirements engineering, UI/UX, as well as front-end web and mobile development.             
+            I'm Amelia, and I'm passionate about making a meaningful impact through technology. My name, Amelia, itself means ambitious, reflecting my drive for continuous growth and excellence. Currently pursuing a degree in Computer Science, I've been fostering my love for programming since my foundation years. Two words that best describe me are ambitious and committed.             
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; I genuinely enjoy interacting with people from various backgrounds. Being self-motivated and maintaining a positive mindset are at the core of my work ethic. 
-            My primary aim? To aesthetically convey my clients' messages and identities. Let's build something impactful together!
+            &nbsp; &nbsp; &nbsp; I'm on the lookout for a software engineer internship or related opportunities where I can contribute my skills and continue learning in a dynamic environment. If you're interested in connecting or have an exciting opportunity to discuss, please feel free to contact me. Let's build something impactful together!
           </p>
         </div>
 
