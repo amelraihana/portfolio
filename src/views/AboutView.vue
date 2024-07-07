@@ -145,7 +145,7 @@ export default {
             I'm Amelia, and I'm passionate about making a meaningful impact through technology. My name, Amelia, itself means ambitious, reflecting my drive for continuous growth and excellence. Currently pursuing a degree in Computer Science, I've been fostering my love for programming since my foundation years. Two words that best describe me are ambitious and committed.             
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; I'm on the lookout for a software engineer internship or related opportunities where I can contribute my skills and continue learning in a dynamic environment. If you're interested in connecting or have an exciting opportunity to discuss, please feel free to contact me. Let's build something impactful together!
+            &nbsp; &nbsp; &nbsp; I'm on the lookout for a software engineer role or related opportunities where I can contribute my skills and continue learning in a dynamic environment. If you're interested in connecting or have an exciting opportunity to discuss, please feel free to contact me. Let's build something impactful together!
           </p>
         </div>
 
