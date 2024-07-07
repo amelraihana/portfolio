@@ -39,8 +39,7 @@ export default {
           tech: 'C++',
           github: 'null',
           demo: 'null'
-        }
-        /*,
+        },
         {
           id: 5,
           name: 'Music Discovery App - ongoing',
@@ -49,7 +48,7 @@ export default {
           tech: 'Flutter, Spotify API',
           github: 'null',
           demo: 'null'
-        } */
+        }
       ]
     };
   }
@@ -114,7 +113,8 @@ export default {
       </div>
     </section>
   </article>
-</div></template>
+</div>
+</template>
 
 <style>
 .item-card:hover {
