@@ -39,15 +39,6 @@ export default {
           tech: 'C++',
           github: 'null',
           demo: 'null'
-        },
-        {
-          id: 5,
-          name: 'Music Discovery App - ongoing',
-          imageUrl: 'wip',
-          status: 'A music discovery platform to find new tunes! Integrated with Spotify API to fetch song or nasheeds recommendations based on the user’s favourite genres or artists. ',
-          tech: 'Flutter, Spotify API',
-          github: 'null',
-          demo: 'null'
         }
       ]
     };

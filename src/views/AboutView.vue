@@ -135,10 +135,10 @@ export default {
 
       <section
         class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
-        <div class="flex justify-center">
+        <!-- <div class="flex justify-center">
           <img class="w-9/12 rounded-full mb-3 fadein-up"
-             src="/amelia.png" alt="ame">
-        </div>
+             src="/amelia.png" alt="ame"> 
+        </div> -->
         <div class="md:w-11/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
             &nbsp; &nbsp; &nbsp; Hello! 👋 
