@@ -25,7 +25,7 @@ export default {
         {
           id: 3,
           name: 'Chess Game',
-          // imageUrl: 'portfolio-chessgame',
+          imageUrl: 'portfolio-chessgame',
           status: ' A web-based interactive chess game with dynamic piece movements.',
           tech: 'HTML, CSS, Javascript',
           github: 'null',
