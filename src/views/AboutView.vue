@@ -191,7 +191,7 @@ export default {
             I've been fostering my love for programming since my foundation
             years. Two words that best describe me are ambitious and committed.
           </p>
-          <p class="mb-3 fadein-left fadeins-2">
+          <p class="mb-3 md:mb-7 fadein-left fadeins-2">
             &nbsp; &nbsp; &nbsp; Having software engineering internship
             experience, and real-world expertise in web and mobile development.
             Also proven ability to design and develop user-friendly interfaces,
