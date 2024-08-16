@@ -1,34 +1,52 @@
 <template>
   <main
-    class="mt-10 md:mt-1 flex flex-col-reverse gap-8 items-center md:flex-row md:gap-16 md:justify-center min-h-[65vh] md:min-h-[80vh]">
+    class="mt-10 md:mt-1 flex flex-col-reverse gap-8 items-center md:flex-row md:gap-16 md:justify-center min-h-[65vh] md:min-h-[80vh]"
+  >
     <div class="space-y-2 text-center md:text-left px-10">
       <p class="text-fuchsia-200 font-semibold">Hello World, I'm</p>
-      <h1 class="text-4xl font-bold md:text-5xl text-white fadein-up">Amelia Raihana</h1>
+      <h1 class="text-4xl font-bold md:text-5xl text-white fadein-up">
+        Amelia Raihana
+      </h1>
       <div class="py-2">
         <h1
           class="typewrite text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-pink-500 md:text-2xl fadein-up"
-          ref="typewriter">
+          ref="typewriter"
+        >
           <span class="wrap">{{ txt }}</span>
         </h1>
       </div>
-      <p class="text-white pr-4 fade-in-from-left font-light">Welcome to my personal website <span class="wave">👋🏼</span></p>
-      <br>
-
+      <p class="text-white pr-4 fade-in-from-left font-light">
+        Welcome to my personal website <span class="wave">👋🏼</span>
+      </p>
+      <br />
     </div>
-    <div class="flex justify-center md:justify-start fadein-right"><img alt="amemoji" fetchpriority="high" width="300" height="300" decoding="async" data-nimg="1"
-        class="w-10/12 md:h-auto rounded-full border-4 border-purple-200 pict" src="/ameliamemoji.png">
+    <div class="flex justify-center md:justify-start fadein-right">
+      <img
+        alt="amemoji"
+        fetchpriority="high"
+        width="300"
+        height="300"
+        decoding="async"
+        data-nimg="1"
+        class="w-10/12 md:h-auto rounded-full border-4 border-purple-200 pict"
+        src="/ameliamemoji.png"
+      />
     </div>
   </main>
 </template>
 
 <script>
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   data() {
     return {
-      toRotate: ["Computer Science Student", "Software Engineer", "Front-End/ Back-End"],
+      toRotate: [
+        "Computer Science Student",
+        "Software Engineer",
+        "Front-End/ Back-End",
+      ],
       period: 2000,
-      txt: '',
+      txt: "",
       loopNum: 0,
       isDeleting: false,
     };
@@ -49,7 +67,9 @@ export default {
       let i = this.loopNum % this.toRotate.length;
       let fullTxt = this.toRotate[i];
 
-      this.txt = this.isDeleting ? fullTxt.substring(0, this.txt.length - 1) : fullTxt.substring(0, this.txt.length + 1);
+      this.txt = this.isDeleting
+        ? fullTxt.substring(0, this.txt.length - 1)
+        : fullTxt.substring(0, this.txt.length + 1);
       typewriter.innerHTML = `<span class="wrap">${this.txt}</span>`;
 
       let that = this;
@@ -62,28 +82,27 @@ export default {
       if (!this.isDeleting && this.txt === fullTxt) {
         delta = this.period;
         this.isDeleting = true;
-      } else if (this.isDeleting && this.txt === '') {
+      } else if (this.isDeleting && this.txt === "") {
         this.isDeleting = false;
         this.loopNum++;
         delta = 500;
       }
-      
+
       setTimeout(() => {
         that.tick();
       }, delta);
     },
-  }
-}
+  },
+};
 </script>
 
 <style>
-
 body {
   overflow-y: scroll;
   overflow-x: hidden;
 }
 
-.typewrite>.wrap {
+.typewrite > .wrap {
   border-right: 0.08em solid #fff;
 }
 
@@ -92,47 +111,47 @@ body {
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
   transform-origin: 70% 70%;
-  display: inline-block
+  display: inline-block;
 }
 
 @keyframes wave-animation {
   0% {
-    transform: rotate(0deg)
+    transform: rotate(0deg);
   }
 
   10% {
-    transform: rotate(14deg)
+    transform: rotate(14deg);
   }
 
   20% {
-    transform: rotate(-8deg)
+    transform: rotate(-8deg);
   }
 
   30% {
-    transform: rotate(14deg)
+    transform: rotate(14deg);
   }
 
   40% {
-    transform: rotate(-4deg)
+    transform: rotate(-4deg);
   }
 
   50% {
-    transform: rotate(10deg)
+    transform: rotate(10deg);
   }
 
   60% {
-    transform: rotate(0deg)
+    transform: rotate(0deg);
   }
 
   to {
-    transform: rotate(0deg)
+    transform: rotate(0deg);
   }
 }
 
 .pict {
   box-shadow: 0px 0px 73px -9px #fb6f92;
--webkit-box-shadow: 0px 0px 73px -9px #fb6f92;
--moz-box-shadow: 0px 0px 73px -9px #fb6f92;
+  -webkit-box-shadow: 0px 0px 73px -9px #fb6f92;
+  -moz-box-shadow: 0px 0px 73px -9px #fb6f92;
 }
 
 .fadein-up {
@@ -219,4 +238,3 @@ body {
   animation-delay: 500ms;
 }
 </style>
-
