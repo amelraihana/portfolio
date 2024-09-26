@@ -9,7 +9,7 @@
           <span class="self-center text-lg text-[#ffb3c6] font-semibold whitespace-nowrap fadein-bot hover:text-pink-100">ame();</span>
         </button>
         <div class="flex md:order-2 fadein-bot">
-          <a href="https://www.linkedin.com/in/amelia-raihana-azhan-69a573237/"><img class="w-9 rounded-full" src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" alt="linkedin"></a>
+          <a href="https://www.linkedin.com/in/ameliaraihana/"><img class="w-9 rounded-full" src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" alt="linkedin"></a>
         </div>
         <div class="hidden md:flex justify-between items-center w-full md:w-auto md:order-1" id="mobile-menu-3">
           <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
