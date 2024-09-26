@@ -33,7 +33,7 @@ export default {
           tech: "HTML, CSS, Javascript",
           github: "null",
           demo: "null",
-        },
+        },/*
         {
           id: 4,
           name: "Tic Tac Toe",
@@ -42,7 +42,7 @@ export default {
           tech: "C++",
           github: "null",
           demo: "null",
-        },
+        },*/
       ],
     };
   },
