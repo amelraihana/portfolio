@@ -41,9 +41,12 @@ export default {
   data() {
     return {
       toRotate: [
-        "Computer Science Student",
-        "Software Engineer",
-        "Front-End/ Back-End",
+        "An Ambitious and Committed",
+        "Computer Science Graduate",
+        "Major in Software Engineering",
+        "Currently Looking For..",
+        "A Software Engineer Role",
+        "Or Related Opportunities",
       ],
       period: 2000,
       txt: "",
