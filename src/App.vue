@@ -6,7 +6,7 @@
     <nav class="max-w-7xl px-5 md:fixed top-0 z-[98] w-screen backdrop-blur-md bg-[#121212] bg-opacity-80" >
       <div class="container mx-auto flex flex-wrap items-center justify-between">
         <button @click="redirectToHome" class="flex">
-          <span class="self-center text-lg text-[#ffb3c6] font-semibold whitespace-nowrap fadein-bot hover:text-pink-100">ame();</span>
+          <span class="self-center text-lg text-[#ffb3c6] font-semibold whitespace-nowrap fadein-bot hover:text-pink-100">amelia();</span>
         </button>
         <div class="flex md:order-2 fadein-bot">
           <a href="https://www.linkedin.com/in/ameliaraihana/"><img class="w-9 rounded-full" src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" alt="linkedin"></a>

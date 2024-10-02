@@ -187,9 +187,10 @@ export default {
             &nbsp; &nbsp; &nbsp; Hello! 👋 I'm Amelia, and I'm passionate about
             making a meaningful impact through technology. My name, Amelia,
             itself means ambitious, reflecting my drive for continuous growth
-            and excellence. Currently pursuing a degree in Computer Science,
-            I've been fostering my love for programming since my foundation
-            years. Two words that best describe me are ambitious and committed.
+            and excellence. As a Computer Science graduate from International
+            Islamic University Malaysia, I've been fostering my love for
+            programming since my foundation year. Two words that best describe
+            me are ambitious and committed.
           </p>
           <p class="mb-3 md:mb-7 fadein-left fadeins-2">
             &nbsp; &nbsp; &nbsp; Having software engineering internship

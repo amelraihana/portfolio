@@ -41,7 +41,6 @@ export default {
   data() {
     return {
       toRotate: [
-        "An Ambitious and Committed",
         "Computer Science Graduate",
         "Major in Software Engineering",
         "Currently Looking For..",
