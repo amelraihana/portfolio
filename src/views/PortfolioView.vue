@@ -11,7 +11,7 @@ export default {
           status:
             "My personal website, which I designed to showcase my personality, skills, and projects. As well as my testing ground for new technology.",
           tech: "Vue.js, Tailwind",
-          github: "null",
+          github: "https://github.com/amelraihana/portfolio",
           demo: "https://ame-portfolio.vercel.app/",
         },
         {
@@ -31,7 +31,7 @@ export default {
           status:
             " A web-based interactive chess game with dynamic piece movements.",
           tech: "HTML, CSS, Javascript",
-          github: "null",
+          github: "https://github.com/amelraihana/chess-game",
           demo: "https://ame-chess-game.vercel.app/",
         },
       ],
