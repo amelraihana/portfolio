@@ -1,7 +1,6 @@
 <template>
   <main
-    class="mt-10 md:mt-1 flex flex-col-reverse gap-8 items-center md:flex-row md:gap-16 md:justify-center min-h-[65vh] md:min-h-[80vh]"
-  >
+    class="mt-10 md:mt-1 flex flex-col-reverse gap-8 items-center md:flex-row md:gap-16 md:justify-center min-h-[65vh] md:min-h-[80vh]">
     <!-- Text section with introduction -->
     <div class="space-y-2 text-center md:text-left px-10">
       <p class="text-fuchsia-200 font-semibold">Hello World, I'm</p>
@@ -11,8 +10,7 @@
       <div class="py-2">
         <h1
           class="typewrite text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-pink-500 md:text-2xl fadein-up"
-          ref="typewriter"
-        >
+          ref="typewriter">
           <span class="wrap">{{ txt }}</span>
         </h1>
       </div>
@@ -23,16 +21,8 @@
     </div>
     <!-- Image section for personal avatar -->
     <div class="flex justify-center md:justify-start fadein-right">
-      <img
-        alt="amemoji"
-        fetchpriority="high"
-        width="300"
-        height="300"
-        decoding="async"
-        data-nimg="1"
-        class="w-10/12 md:h-auto rounded-full border-4 border-purple-200 pict"
-        src="/ameliamemoji.png"
-      />
+      <img alt="amemoji" fetchpriority="high" width="300" height="300" decoding="async" data-nimg="1"
+        class="w-10/12 md:h-auto rounded-full border-4 border-purple-200 pict" src="/ameliamemoji.png" />
     </div>
   </main>
 </template>
@@ -110,13 +100,16 @@ export default {
 <style>
 /* General body styles */
 body {
-  overflow-y: scroll; /* Enable vertical scrolling */
-  overflow-x: hidden; /* Disable horizontal scrolling */
+  overflow-y: scroll;
+  /* Enable vertical scrolling */
+  overflow-x: hidden;
+  /* Disable horizontal scrolling */
 }
 
 /* Styles for typewriter effect */
-.typewrite > .wrap {
-  border-right: 0.08em solid #fff; /* Cursor effect */
+.typewrite>.wrap {
+  border-right: 0.08em solid #fff;
+  /* Cursor effect */
 }
 
 /* Wave animation for emoji */
@@ -133,24 +126,31 @@ body {
   0% {
     transform: rotate(0deg);
   }
+
   10% {
     transform: rotate(14deg);
   }
+
   20% {
     transform: rotate(-8deg);
   }
+
   30% {
     transform: rotate(14deg);
   }
+
   40% {
     transform: rotate(-4deg);
   }
+
   50% {
     transform: rotate(10deg);
   }
+
   60% {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(0deg);
   }
@@ -158,99 +158,139 @@ body {
 
 /* Styles for image with shadow */
 .pict {
-  box-shadow: 0px 0px 73px -9px #fb6f92; /* Shadow effect */
-  -webkit-box-shadow: 0px 0px 73px -9px #fb6f92; /* Webkit shadow */
-  -moz-box-shadow: 0px 0px 73px -9px #fb6f92; /* Firefox shadow */
+  box-shadow: 0px 0px 73px -9px #fb6f92;
+  /* Shadow effect */
+  -webkit-box-shadow: 0px 0px 73px -9px #fb6f92;
+  /* Webkit shadow */
+  -moz-box-shadow: 0px 0px 73px -9px #fb6f92;
+  /* Firefox shadow */
 }
 
 /* Fade-in animations */
 .fadein-up {
-  opacity: 0; /* Start invisible */
-  animation-name: fadeInUp; /* Animation name */
-  animation-duration: 0.5s; /* Animation duration */
-  animation-fill-mode: forwards; /* Keep final state */
-  animation-delay: 500ms; /* Delay before starting */
+  opacity: 0;
+  /* Start invisible */
+  animation-name: fadeInUp;
+  /* Animation name */
+  animation-duration: 0.5s;
+  /* Animation duration */
+  animation-fill-mode: forwards;
+  /* Keep final state */
+  animation-delay: 500ms;
+  /* Delay before starting */
 }
 
 /* Keyframes for fade-in up animation */
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translate3d(0, 100%, 0); /* Move up */
+    transform: translate3d(0, 100%, 0);
+    /* Move up */
   }
+
   to {
     opacity: 1;
-    transform: translate3d(0, 0, 0); /* End position */
+    transform: translate3d(0, 0, 0);
+    /* End position */
   }
 }
 
 /* Fade-in from left animation */
 .fade-in-from-left {
-  opacity: 0; /* Start invisible */
-  animation: fadeInLeft 0.5s ease-out forwards; /* Animation */
-  animation-delay: 500ms; /* Delay before starting */
+  opacity: 0;
+  /* Start invisible */
+  animation: fadeInLeft 0.5s ease-out forwards;
+  /* Animation */
+  animation-delay: 500ms;
+  /* Delay before starting */
 }
 
 /* Keyframes for fade-in left animation */
 @keyframes fadeInLeft {
   0% {
-    opacity: 0; /* Start invisible */
-    transform: translateX(-100%); /* Move left */
+    opacity: 0;
+    /* Start invisible */
+    transform: translateX(-100%);
+    /* Move left */
   }
+
   100% {
-    opacity: 1; /* End visible */
-    transform: translateX(0); /* Final position */
+    opacity: 1;
+    /* End visible */
+    transform: translateX(0);
+    /* Final position */
   }
 }
 
 /* Fade-in from right animation */
 .fadein-right {
-  opacity: 0; /* Start invisible */
-  animation: fadeInRight 0.5s ease-out forwards; /* Animation */
-  animation-delay: 500ms; /* Delay before starting */
+  opacity: 0;
+  /* Start invisible */
+  animation: fadeInRight 0.5s ease-out forwards;
+  /* Animation */
+  animation-delay: 500ms;
+  /* Delay before starting */
 }
 
 /* Keyframes for fade-in right animation */
 @keyframes fadeInRight {
   0% {
-    opacity: 0; /* Start invisible */
-    transform: translateX(100%); /* Move right */
+    opacity: 0;
+    /* Start invisible */
+    transform: translateX(100%);
+    /* Move right */
   }
+
   100% {
-    opacity: 1; /* End visible */
-    transform: translateX(0); /* Final position */
+    opacity: 1;
+    /* End visible */
+    transform: translateX(0);
+    /* Final position */
   }
 }
 
 /* Fade-in from bottom animation */
 .fadein-bot {
-  opacity: 0; /* Start invisible */
-  animation: fadeInBot 0.5s forwards; /* Animation */
+  opacity: 0;
+  /* Start invisible */
+  animation: fadeInBot 0.5s forwards;
+  /* Animation */
 }
 
 /* Keyframes for fade-in bottom animation */
 @keyframes fadeInBot {
   from {
-    opacity: 0; /* Start invisible */
-    transform: translate3d(0, -100%, 0); /* Move down */
+    opacity: 0;
+    /* Start invisible */
+    transform: translate3d(0, -100%, 0);
+    /* Move down */
   }
+
   to {
-    opacity: 1; /* End visible */
-    transform: translate3d(0, 0, 0); /* Final position */
+    opacity: 1;
+    /* End visible */
+    transform: translate3d(0, 0, 0);
+    /* Final position */
   }
 }
 
 /* Animation delays for various fade-in effects */
 .fadein-1 {
-  animation-delay: 200ms; /* Delay for first animation */
+  animation-delay: 200ms;
+  /* Delay for first animation */
 }
+
 .fadein-2 {
-  animation-delay: 400ms; /* Delay for second animation */
+  animation-delay: 400ms;
+  /* Delay for second animation */
 }
+
 .fadein-3 {
-  animation-delay: 600ms; /* Delay for third animation */
+  animation-delay: 600ms;
+  /* Delay for third animation */
 }
+
 .fade-500 {
-  animation-delay: 500ms; /* Delay for fade animation */
-}
-</style>
+  animation-delay: 500ms;
+  /* Delay for fade animation */
+}</style>
