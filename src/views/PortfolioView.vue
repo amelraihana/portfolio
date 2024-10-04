@@ -7,8 +7,8 @@ export default {
         {
           id: 1,
           name: "Portfolio Website",
-          imageUrl: "portfolio",
-          status: "My personal website, which I designed to showcase my personality, skills, and projects. As well as my testing ground for new technology.",
+          images: "portfolio",
+          description: "My personal website, which I designed to showcase my personality, skills, and projects. As well as my testing ground for new technology.",
           tech: "Vue.js, Tailwind",
           github: "https://github.com/amelraihana/portfolio",
           demo: "https://ame-portfolio.vercel.app/",
@@ -16,8 +16,8 @@ export default {
         {
           id: 2,
           name: "IstiqamaTracker",
-          imageUrl: "portfolio-istiqamatracker",
-          status: "A comprehensive daily ibadah mobile tracker app for Muslims. Main features include daily prayer tracker, daily Quran recitation tracker and Quran memorization, fasting tracker, dhikr tracker, and sadaqah tracker.",
+          images: "portfolio-istiqamatracker",
+          description: "A comprehensive daily ibadah mobile tracker app for Muslims. Main features include daily prayer tracker, daily Quran recitation tracker and Quran memorization, fasting tracker, dhikr tracker, and sadaqah tracker.",
           tech: "SwiftUI, Firebase",
           github: null,
           demo: null,
@@ -25,8 +25,8 @@ export default {
         {
           id: 3,
           name: "Chess Game",
-          imageUrl: "portfolio-chessgame",
-          status: "A web-based interactive chess game with dynamic piece movements.",
+          images: "portfolio-chessgame",
+          description: "A web-based interactive chess game with dynamic piece movements.",
           tech: "HTML, CSS, Javascript",
           github: "https://github.com/amelraihana/chess-game",
           demo: "https://ame-chess-game.vercel.app/",
@@ -36,8 +36,8 @@ export default {
         {
           id: 1,
           name: "Payment Link",
-          imageUrl: "payment-link",
-          status: "Aimed to provide a seamless payment experience for merchants and customers through a user-friendly interface.",
+          images: "payment-link",
+          description: "Aimed to provide a seamless payment experience for merchants and customers through a user-friendly interface.",
           tech: "HTML, CSS, JavaScript",
           github: null,
           demo: null,
@@ -45,8 +45,8 @@ export default {
         {
           id: 2,
           name: "Invoice Page",
-          imageUrl: "invoice-page",
-          status: "Focused on creating a dynamic and responsive invoice system that integrates with BetterPay's backend API.",
+          images: "invoice-page",
+          description: "Focused on creating a dynamic and responsive invoice system that integrates with BetterPay's backend API.",
           tech: "HTML, CSS, JavaScript",
           github: null,
           demo: "https://www.betterpay.me/payment/invoice/?id=65fbc11acbea5",
@@ -54,8 +54,8 @@ export default {
         {
           id: 3,
           name: "API Design",
-          imageUrl: "api-design",
-          status: "Involved creating Postman collections to streamline the API integration process for BetterPay's PRO and LITE APIs.",
+          images: "api-design",
+          description: "Involved creating Postman collections to streamline the API integration process for BetterPay's PRO and LITE APIs.",
           tech: "Postman",
           github: "https://github.com/betterpayme/POSTMAN-APIs/tree/main",
           demo: null,
@@ -91,7 +91,7 @@ export default {
                     decoding="async"
                     data-nimg="1"
                     class="drop-shadow-xl rounded-xl"
-                    :src="'/' + item.imageUrl + '.png'"
+                    :src="'/' + item.images + '.png'"
                   />
                 </div>
                 <div class="w-full flex flex-col gap-2 items-center text-sm md:text-base lg:text-lg">
@@ -99,7 +99,7 @@ export default {
                     {{ item.name }}
                   </div>
                   <div class="w-full text-left text-[12px] text-[#c1c1c1] md:text-sm lg:text-base">
-                    {{ item.status }}
+                    {{ item.description }}
                   </div>
                   <div class="w-full mt-4 text-normal text-sm text-left text-purple-200">
                     {{ item.tech }}
@@ -189,7 +189,7 @@ export default {
                     decoding="async"
                     data-nimg="1"
                     class="drop-shadow-xl rounded-xl"
-                    :src="'/' + item.imageUrl + '.png'"
+                    :src="'/' + item.images + '.png'"
                   />
                 </div>
                 <div class="w-full flex flex-col gap-2 items-center text-sm md:text-base lg:text-lg">
@@ -197,7 +197,7 @@ export default {
                     {{ item.name }}
                   </div>
                   <div class="w-full text-left text-[12px] text-[#c1c1c1] md:text-sm lg:text-base">
-                    {{ item.status }}
+                    {{ item.description }}
                   </div>
                   <div class="w-full mt-4 text-normal text-sm text-left text-purple-200">
                     {{ item.tech }}
