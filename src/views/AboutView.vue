@@ -18,7 +18,7 @@ export default {
         },
         {
           id: 3,
-          name: "Javascript",
+          name: "JavaScript",
           imageUrl:
             "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png",
           description: null,
@@ -32,7 +32,7 @@ export default {
         },
         {
           id: 5,
-          name: "Tailwind",
+          name: "Tailwind CSS",
           imageUrl:
             "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
           description: null,
@@ -81,41 +81,27 @@ export default {
         },
         {
           id: 12,
-          name: "SQLite",
-          imageUrl:
-            "https://dwglogo.com/wp-content/uploads/2018/03/SQLite_Vector_logo-1024x705.png",
-          description: null,
-        },
-        {
-          id: 13,
-          name: "Go",
-          imageUrl:
-            "https://i.pinimg.com/736x/f0/1f/69/f01f692c14ed47421cbc564ae4bf0ed3.jpg",
-          description: null,
-        },
-        {
-          id: 14,
           name: "Laravel",
           imageUrl:
             "https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg",
           description: null,
         },
         {
-          id: 15,
-          name: "Bootstrap",
+          id: 13,
+          name: "Bootstrap CSS",
           imageUrl:
             "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
           description: null,
         },
         {
-          id: 16,
+          id: 14,
           name: "Postman",
           imageUrl:
             "https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png",
           description: null,
         },
         {
-          id: 17,
+          id: 15,
           name: "MySQL",
           imageUrl:
             "https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg",
