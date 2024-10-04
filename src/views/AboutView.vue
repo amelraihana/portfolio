@@ -8,140 +8,140 @@ export default {
           id: 1,
           name: "HTML",
           imageUrl: "https://cdn-icons-png.flaticon.com/512/1051/1051277.png",
-          status: null,
+          description: null,
         },
         {
           id: 2,
           name: "CSS",
           imageUrl: "https://cdn-icons-png.flaticon.com/512/732/732190.png",
-          status: null,
+          description: null,
         },
         {
           id: 3,
           name: "Javascript",
           imageUrl:
             "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png",
-          status: null,
+          description: null,
         },
         {
           id: 4,
           name: "VueJS",
           imageUrl:
             "https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp",
-          status: null,
+          description: null,
         },
         {
           id: 5,
           name: "Tailwind",
           imageUrl:
             "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
-          status: null,
+          description: null,
         },
         {
           id: 6,
           name: "C",
           imageUrl:
             "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg",
-          status: null,
+          description: null,
         },
         {
           id: 7,
           name: "C++",
           imageUrl:
             "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
-          status: null,
+          description: null,
         },
         {
           id: 8,
           name: "Python",
           imageUrl:
             "https://cdn.freebiesupply.com/logos/large/2x/python-5-logo-png-transparent.png",
-          status: null,
+          description: null,
         },
         {
           id: 9,
           name: "Swift",
           imageUrl:
             "https://cdn4.iconfinder.com/data/icons/logos-3/504/Swift-2-1024.png",
-          status: null,
+          description: null,
         },
         {
           id: 10,
           name: "Firebase",
           imageUrl:
             "https://upload.wikimedia.org/wikipedia/commons/c/cf/Firebase_icon.svg",
-          status: null,
+          description: null,
         },
         {
           id: 11,
           name: "Flutter",
           imageUrl:
             "https://web-strapi.mrmilu.com/uploads/flutter_logo_470e9f7491.png",
-          status: null,
+          description: null,
         },
         {
           id: 12,
           name: "SQLite",
           imageUrl:
             "https://dwglogo.com/wp-content/uploads/2018/03/SQLite_Vector_logo-1024x705.png",
-          status: null,
+          description: null,
         },
         {
           id: 13,
           name: "Go",
           imageUrl:
             "https://i.pinimg.com/736x/f0/1f/69/f01f692c14ed47421cbc564ae4bf0ed3.jpg",
-          status: null,
+          description: null,
         },
         {
           id: 14,
           name: "Laravel",
           imageUrl:
             "https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg",
-          status: null,
+          description: null,
         },
         {
           id: 15,
           name: "Bootstrap",
           imageUrl:
             "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
-          status: null,
+          description: null,
         },
         {
           id: 16,
           name: "Postman",
           imageUrl:
             "https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png",
-          status: null,
+          description: null,
         },
         {
           id: 17,
           name: "MySQL",
           imageUrl:
             "https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg",
-          status: null,
+          description: null,
         },
       ],
       otherSkills: [
         {
           id: 1,
           name: "Communication",
-          status: null,
+          description: null,
         },
         {
           id: 2,
           name: "Adaptability",
-          status: null,
+          description: null,
         },
         {
           id: 3,
           name: "Attention to Detail",
-          status: null,
+          description: null,
         },
         {
           id: 4,
           name: "Interpersonal",
-          status: null,
+          description: null,
         },
       ],
     };
@@ -277,9 +277,9 @@ export default {
                     {{ item.name }}
                   </div>
                   <div
-                    class="status-tech opacity-0 absolute mt-5 text-[10px] text-sky-300 transition-all duration-300 md:text-xs lg:text-sm"
+                    class="description-tech opacity-0 absolute mt-5 text-[10px] text-sky-300 transition-all duration-300 md:text-xs lg:text-sm"
                   >
-                    {{ item.status }}
+                    {{ item.description }}
                   </div>
                 </div>
               </div>
@@ -301,9 +301,9 @@ export default {
                     {{ item.name }}
                   </div>
                   <div
-                    class="status-tech opacity-0 absolute mt-5 text-[10px] text-neutral-200 transition-all duration-300 md:text-xs lg:text-sm"
+                    class="description-tech opacity-0 absolute mt-5 text-[10px] text-neutral-200 transition-all duration-300 md:text-xs lg:text-sm"
                   >
-                    {{ item.status }}
+                    {{ item.description }}
                   </div>
                 </div>
               </div>
