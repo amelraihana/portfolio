@@ -60,70 +60,62 @@ export default {
         },
         {
           id: 9,
-          name: "Java",
-          imageUrl:
-            "https://www.logo.wine/a/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.svg",
-          status: null,
-        },
-        {
-          id: 10,
           name: "Swift",
           imageUrl:
             "https://cdn4.iconfinder.com/data/icons/logos-3/504/Swift-2-1024.png",
           status: null,
         },
         {
-          id: 11,
+          id: 10,
           name: "Firebase",
           imageUrl:
             "https://upload.wikimedia.org/wikipedia/commons/c/cf/Firebase_icon.svg",
           status: null,
         },
         {
-          id: 12,
+          id: 11,
           name: "Flutter",
           imageUrl:
             "https://web-strapi.mrmilu.com/uploads/flutter_logo_470e9f7491.png",
           status: null,
         },
         {
-          id: 13,
+          id: 12,
           name: "SQLite",
           imageUrl:
             "https://dwglogo.com/wp-content/uploads/2018/03/SQLite_Vector_logo-1024x705.png",
           status: null,
         },
         {
-          id: 14,
+          id: 13,
           name: "Go",
           imageUrl:
             "https://i.pinimg.com/736x/f0/1f/69/f01f692c14ed47421cbc564ae4bf0ed3.jpg",
           status: null,
         },
-        // New skills added below
         {
-          id: 15,
+          id: 14,
           name: "Laravel",
           imageUrl:
             "https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg",
           status: null,
         },
         {
-          id: 16,
+          id: 15,
           name: "Bootstrap",
           imageUrl:
             "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
           status: null,
         },
         {
-          id: 17,
+          id: 16,
           name: "Postman",
           imageUrl:
             "https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png",
           status: null,
         },
         {
-          id: 18,
+          id: 17,
           name: "MySQL",
           imageUrl:
             "https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg",
@@ -176,7 +168,7 @@ export default {
       </header>
 
       <section
-        class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center"
+        class="text-sm md:text-base text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center"
       >
         <!-- <div class="flex justify-center">
           <img class="w-9/12 rounded-full mb-3 fadein-up"

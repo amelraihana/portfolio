@@ -98,7 +98,7 @@ export default {
                   <div class="title-text font-medium text-secondary">
                     {{ item.name }}
                   </div>
-                  <div class="w-full text-left text-[10px] text-[#c1c1c1] md:text-xs lg:text-sm">
+                  <div class="w-full text-left text-[12px] text-[#c1c1c1] md:text-sm lg:text-base">
                     {{ item.status }}
                   </div>
                   <div class="w-full mt-4 text-normal text-sm text-left text-purple-200">
@@ -196,7 +196,7 @@ export default {
                   <div class="title-text font-medium text-secondary">
                     {{ item.name }}
                   </div>
-                  <div class="w-full text-left text-[10px] text-[#c1c1c1] md:text-xs lg:text-sm">
+                  <div class="w-full text-left text-[12px] text-[#c1c1c1] md:text-sm lg:text-base">
                     {{ item.status }}
                   </div>
                   <div class="w-full mt-4 text-normal text-sm text-left text-purple-200">
