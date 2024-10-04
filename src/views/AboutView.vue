@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      activeTab: 1,
+      activeTab: 1, // Tracks the currently active tab (1 for Key Skills, 2 for Others)
       tech: [
         {
           id: 1,
@@ -324,58 +324,26 @@ export default {
 </template>
 
 <style>
-/* Enhance hover effects */
 .item-tech {
-  transition: all 0.3s ease-in-out;
-  background-color: rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease-in-out; 
+  background-color: rgba(255, 255, 255, 0.05); 
 }
 
 .item-tech:hover {
-  background-color: rgba(255, 255, 255, 0.15);
-  transform: translateY(-5px);
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.15); /* Darker on hover */
+  transform: translateY(-5px); /* Slight lift effect */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Drop shadow for depth */
 }
 
 /* Add a soft glow effect to images on hover */
 .item-tech:hover .img-tech {
-  transform: scale(1.3);
-  filter: brightness(1.2) drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+  transform: scale(1.3); /* Enlarge image on hover */
+  filter: brightness(1.2) drop-shadow(0 0 10px rgba(255, 255, 255, 0.5)); /* Brightness and glow */
 }
 
-/* Enhance text and status transitions */
 .tech {
   font-size: 1rem;
-  color: #e5e7eb;
-  transition: transform 0.3s ease, color 0.3s ease;
-}
-
-.item-tech:hover .tech {
-  transform: translateY(-12px);
-  color: #ff007b;
-}
-
-.status-tech {
-  opacity: 0;
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  font-weight: bold;
-  color: #38bdf8;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.item-tech:hover .status-tech {
-  opacity: 1;
-}
-
-/* Improve button appearance */
-button {
-  transition: background-color 0.3s, color 0.3s;
-}
-
-button:hover {
-  background-color: #ff007b;
-  color: #111827;
+  color: #e5e7eb; 
+  transition: transform 0.3s;
 }
 </style>

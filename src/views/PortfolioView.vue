@@ -8,8 +8,7 @@ export default {
           id: 1,
           name: "Portfolio Website",
           imageUrl: "portfolio",
-          status:
-            "My personal website, which I designed to showcase my personality, skills, and projects. As well as my testing ground for new technology.",
+          status: "My personal website, which I designed to showcase my personality, skills, and projects. As well as my testing ground for new technology.",
           tech: "Vue.js, Tailwind",
           github: "https://github.com/amelraihana/portfolio",
           demo: "https://ame-portfolio.vercel.app/",
@@ -18,18 +17,16 @@ export default {
           id: 2,
           name: "IstiqamaTracker",
           imageUrl: "portfolio-istiqamatracker",
-          status:
-            "A comprehensive daily ibadah mobile tracker app for Muslims. Main features include daily prayer tracker, daily quran recitation tracker and quran memorization, fasting tracker, dhikr tracker, and sadaqah tracker.",
+          status: "A comprehensive daily ibadah mobile tracker app for Muslims. Main features include daily prayer tracker, daily Quran recitation tracker and Quran memorization, fasting tracker, dhikr tracker, and sadaqah tracker.",
           tech: "SwiftUI, Firebase",
-          github: "null",
-          demo: "null",
+          github: null,
+          demo: null,
         },
         {
           id: 3,
           name: "Chess Game",
           imageUrl: "portfolio-chessgame",
-          status:
-            " A web-based interactive chess game with dynamic piece movements.",
+          status: "A web-based interactive chess game with dynamic piece movements.",
           tech: "HTML, CSS, Javascript",
           github: "https://github.com/amelraihana/chess-game",
           demo: "https://ame-chess-game.vercel.app/",
@@ -40,65 +37,54 @@ export default {
           id: 1,
           name: "Payment Link",
           imageUrl: "payment-link",
-          status:
-            "Aimed to provide a seamless payment experience for merchants and customers through a user-friendly interface.",
+          status: "Aimed to provide a seamless payment experience for merchants and customers through a user-friendly interface.",
           tech: "HTML, CSS, JavaScript",
-          github: "null",
-          demo: "null",
+          github: null,
+          demo: null,
         },
         {
           id: 2,
           name: "Invoice Page",
           imageUrl: "invoice-page",
-          status:
-            "Focused on creating a dynamic and responsive invoice system that integrates with BetterPay's backend API.",
+          status: "Focused on creating a dynamic and responsive invoice system that integrates with BetterPay's backend API.",
           tech: "HTML, CSS, JavaScript",
-          github: "null",
+          github: null,
           demo: "https://www.betterpay.me/payment/invoice/?id=65fbc11acbea5",
         },
         {
           id: 3,
           name: "API Design",
           imageUrl: "api-design",
-          status:
-            "Involved creating Postman collections to streamline the API integration process for BetterPay's PRO and LITE APIs.",
+          status: "Involved creating Postman collections to streamline the API integration process for BetterPay's PRO and LITE APIs.",
           tech: "Postman",
           github: "https://github.com/betterpayme/POSTMAN-APIs/tree/main",
-          demo: "null",
+          demo: null,
         },
       ],
     };
   },
 };
 </script>
+
 <template>
   <div class="px-5 py-5 md:px-12 md:py-10 text-left text-amber-50 mx-3">
     <article data-page="about">
       <header>
-        <div
-          class="text-2xl font-bold text-white mb-10 fadein-bot title-section flex items-center justify-center flex-col"
-        >
-          <!-- <div class="h-[1px] w-10 bg-amber-200 md:w-20 aos-init aos-animate"></div> -->
+        <div class="text-2xl font-bold text-white mb-10 fadein-bot title-section flex items-center justify-center flex-col">
           <h4>Personal Projects</h4>
-          <h4
-            class="text-base font-normal text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-pink-500"
-          >
+          <h4 class="text-base font-normal text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-pink-500">
             Explore the projects I've worked on so far
           </h4>
         </div>
       </header>
+
+    <!-- Personal Projects Section -->
       <section>
         <div>
-          <div
-            class="grid grid-cols-1 gap-4 pb-32 md:grid-cols-3 md:gap-3 xl:grid-cols-3 xl:gap-3 2xl:gap-5 fade-zoom-in"
-          >
+          <div class="grid grid-cols-1 gap-4 pb-32 md:grid-cols-3 md:gap-3 xl:grid-cols-3 xl:gap-3 2xl:gap-5 fade-zoom-in">
             <div v-for="item in personalProjects" :key="item.id">
-              <div
-                class="item-card flex flex-col items-center gap-2 rounded bg-[#1e1e1f] hover:bg-[#282828] border border-[#383838] rounded-xl text-amber-50 md:gap-3 px-5 py-5 lg:px-5"
-              >
-                <div
-                  class="flex h-84 w-84 items-center justify-center p-0 h-full w-full lg:p-0 zoom-in"
-                >
+              <div class="item-card flex flex-col items-center gap-2 rounded bg-[#1e1e1f] hover:bg-[#282828] border border-[#383838] rounded-xl text-amber-50 md:gap-3 px-5 py-5 lg:px-5">
+                <div class="flex h-84 w-84 items-center justify-center p-0 h-full w-full lg:p-0 zoom-in">
                   <img
                     alt="HTML"
                     loading="lazy"
@@ -108,29 +94,20 @@ export default {
                     :src="'/' + item.imageUrl + '.png'"
                   />
                 </div>
-                <div
-                  class="w-full flex flex-col gap-2 items-center text-sm md:text-base lg:text-lg"
-                >
+                <div class="w-full flex flex-col gap-2 items-center text-sm md:text-base lg:text-lg">
                   <div class="title-text font-medium text-secondary">
                     {{ item.name }}
                   </div>
-                  <div
-                    class="w-full text-left text-[10px] text-[#c1c1c1] md:text-xs lg:text-sm"
-                  >
+                  <div class="w-full text-left text-[10px] text-[#c1c1c1] md:text-xs lg:text-sm">
                     {{ item.status }}
                   </div>
-                  <div
-                    class="w-full mt-4 text-normal text-sm text-left text-purple-200"
-                  >
+                  <div class="w-full mt-4 text-normal text-sm text-left text-purple-200">
                     {{ item.tech }}
                   </div>
-
                   <div class="w-full flex justify-end">
-                    <div
-                      class="flex cursor-pointer items-end gap-2 text-primary"
-                    >
+                    <div class="flex cursor-pointer items-end gap-2 text-primary">
                       <a
-                        v-if="item.github !== 'null'"
+                        v-if="item.github !== null"
                         :href="item.github"
                         target="_blank"
                         rel="noreferrer"
@@ -150,10 +127,11 @@ export default {
                         >
                           <path
                             d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-                          ></path></svg
-                      ></a>
+                          ></path>
+                        </svg>
+                      </a>
                       <a
-                        v-if="item.demo !== 'null'"
+                        v-if="item.demo !== null"
                         :href="item.demo"
                         target="_blank"
                         rel="noreferrer"
@@ -175,8 +153,9 @@ export default {
                             d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
                           ></path>
                           <polyline points="15 3 21 3 21 9"></polyline>
-                          <line x1="10" y1="14" x2="21" y2="3"></line></svg
-                      ></a>
+                          <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -186,33 +165,24 @@ export default {
         </div>
       </section>
     </article>
+
     <article data-page="about">
       <header>
-        <div
-          class="text-2xl font-bold text-white mb-10 fadein-bot title-section flex items-center justify-center flex-col"
-        >
-          <!-- <div class="h-[1px] w-10 bg-amber-200 md:w-20 aos-init aos-animate"></div> -->
+        <div class="text-2xl font-bold text-white mb-10 fadein-bot title-section flex items-center justify-center flex-col">
           <h4>Others</h4>
-          <h4
-            class="text-base font-normal text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-pink-500"
-          >
-            Explore some of the projects I had proudly worked on during
-            internship
+          <h4 class="text-base font-normal text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-pink-500">
+            Explore some of the projects I had proudly worked on during internship
           </h4>
         </div>
       </header>
+
+          <!-- Professional Projects Section -->
       <section>
         <div>
-          <div
-            class="grid grid-cols-1 gap-4 pb-32 md:grid-cols-3 md:gap-3 xl:grid-cols-3 xl:gap-3 2xl:gap-5 fade-zoom-in"
-          >
+          <div class="grid grid-cols-1 gap-4 pb-32 md:grid-cols-3 md:gap-3 xl:grid-cols-3 xl:gap-3 2xl:gap-5 fade-zoom-in">
             <div v-for="item in others" :key="item.id">
-              <div
-                class="item-card flex flex-col items-center gap-2 rounded bg-[#1e1e1f] hover:bg-[#282828] border border-[#383838] rounded-xl text-amber-50 md:gap-3 px-5 py-5 lg:px-5"
-              >
-                <div
-                  class="flex h-84 w-84 items-center justify-center p-0 h-full w-full lg:p-0 zoom-in"
-                >
+              <div class="item-card flex flex-col items-center gap-2 rounded bg-[#1e1e1f] hover:bg-[#282828] border border-[#383838] rounded-xl text-amber-50 md:gap-3 px-5 py-5 lg:px-5">
+                <div class="flex h-84 w-84 items-center justify-center p-0 h-full w-full lg:p-0 zoom-in">
                   <img
                     alt="HTML"
                     loading="lazy"
@@ -222,29 +192,20 @@ export default {
                     :src="'/' + item.imageUrl + '.png'"
                   />
                 </div>
-                <div
-                  class="w-full flex flex-col gap-2 items-center text-sm md:text-base lg:text-lg"
-                >
+                <div class="w-full flex flex-col gap-2 items-center text-sm md:text-base lg:text-lg">
                   <div class="title-text font-medium text-secondary">
                     {{ item.name }}
                   </div>
-                  <div
-                    class="w-full text-left text-[10px] text-[#c1c1c1] md:text-xs lg:text-sm"
-                  >
+                  <div class="w-full text-left text-[10px] text-[#c1c1c1] md:text-xs lg:text-sm">
                     {{ item.status }}
                   </div>
-                  <div
-                    class="w-full mt-4 text-normal text-sm text-left text-purple-200"
-                  >
+                  <div class="w-full mt-4 text-normal text-sm text-left text-purple-200">
                     {{ item.tech }}
                   </div>
-
                   <div class="w-full flex justify-end">
-                    <div
-                      class="flex cursor-pointer items-end gap-2 text-primary"
-                    >
+                    <div class="flex cursor-pointer items-end gap-2 text-primary">
                       <a
-                        v-if="item.github !== 'null'"
+                        v-if="item.github !== null"
                         :href="item.github"
                         target="_blank"
                         rel="noreferrer"
@@ -264,10 +225,11 @@ export default {
                         >
                           <path
                             d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-                          ></path></svg
-                      ></a>
+                          ></path>
+                        </svg>
+                      </a>
                       <a
-                        v-if="item.demo !== 'null'"
+                        v-if="item.demo !== null"
                         :href="item.demo"
                         target="_blank"
                         rel="noreferrer"
@@ -289,8 +251,9 @@ export default {
                             d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
                           ></path>
                           <polyline points="15 3 21 3 21 9"></polyline>
-                          <line x1="10" y1="14" x2="21" y2="3"></line></svg
-                      ></a>
+                          <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -303,7 +266,7 @@ export default {
   </div>
 </template>
 
-<style>
+<style scoped>
 .item-card:hover {
   transition: transform 0.3s ease;
   transform: translateY(-8px);
