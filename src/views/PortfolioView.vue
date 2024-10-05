@@ -53,7 +53,7 @@ export default {
           id: 2,
           name: "Invoice Page",
           images: "invoice-page",
-          description: "Developed a comprehensive invoice page, utilizing jQuery and AJAX for dynamic data integration through API calls",
+          description: "Developed a comprehensive invoice page, utilizing jQuery and AJAX for dynamic data integration through API calls.",
           tech: "HTML, CSS, JavaScript",
           github: null,
           demo: "https://www.betterpay.me/payment/invoice/?id=65fbc11acbea5",
