@@ -47,7 +47,7 @@ export default {
           description: "Designed & developed payment link interfaces for multiple payment options, including handling API requests to redirect users to checkout pages. Now, the payment link page is actively used by BetterPay merchants.",
           tech: "HTML, CSS, JavaScript, Bootstrap",
           github: null,
-          demo: null,
+          demo: "https://www.betterpay.me/payment/link/?invoice-sample-INV0004A",
         },
         {
           id: 2,
