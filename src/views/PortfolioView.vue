@@ -42,7 +42,6 @@ export default {
             "payment-link-2",
             "payment-link-3",
             "payment-link-4",
-            "payment-link-5",
           ],
           description: "Designed & developed payment link interfaces for multiple payment options, including handling API requests to redirect users to checkout pages. Now, the payment link page is actively used by BetterPay merchants.",
           tech: "HTML, CSS, JavaScript, Bootstrap",
