@@ -137,44 +137,62 @@ export default {
 
 <template>
   <div
-    class="bg-[#1e1e1f] px-5 py-5 md:px-12 md:py-10 text-left border border-[#383838] rounded-3xl text-amber-50 mx-3 mb-5">
+    class="bg-[#1e1e1f] px-5 py-5 md:px-12 md:py-10 text-left border border-[#383838] rounded-3xl text-amber-50 mx-3 mb-5"
+  >
     <article data-page="about">
       <header>
-        <div class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center">
+        <div
+          class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center"
+        >
           About Me &nbsp;
-          <div class="h-[1px] w-32 bg-stone-400 md:w-96 aos-init aos-animate" data-aos="zoom-in-left"
-            data-aos-duration="600"></div>
+          <div
+            class="h-[1px] w-32 bg-stone-400 md:w-96 aos-init aos-animate"
+            data-aos="zoom-in-left"
+            data-aos-duration="600"
+          ></div>
         </div>
       </header>
 
       <section
-        class="text-sm md:text-base text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
+        class="text-sm md:text-base text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center"
+      >
         <!-- <div class="flex justify-center">
           <img class="w-9/12 rounded-full mb-3 fadein-up"
              src="/amelia.png" alt="ame"> 
         </div> -->
         <div class="md:w-11/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hello! 👋 I'm Amelia, and I'm passionate about
-            making a meaningful impact through technology. My name, Amelia,
-            itself means ambitious, reflecting my drive for continuous growth
-            and excellence. As a Computer Science graduate from International
-            Islamic University Malaysia, I've been fostering my love for
-            programming since my foundation year. Two words that best describe
-            me are ambitious and committed.
+            &nbsp; &nbsp; &nbsp; Hello! 👋 I’m Amelia, a first-class Computer
+            Science graduate from International Islamic University Malaysia,
+            specializing in Software Engineering. My name means “ambitious,” and
+            I carry that spirit into everything I do, driven by a passion for
+            creating impactful technology solutions. I’ve been committed to
+            programming since my foundation year, and two words that define me
+            are ambitious and dedicated.
           </p>
           <p class="mb-3 md:mb-7 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; Having software engineering internship
-            experience, and real-world expertise in web and mobile development.
-            Also proven ability to design and develop user-friendly interfaces,
-            integrate APIs, and build backend systems, I'm on the lookout for a
-            software engineer role or related opportunities where I can
-            contribute my skills and continue learning in a dynamic environment.
+            &nbsp; &nbsp; &nbsp; During my software engineering internship at
+            BetterPay, I had the opportunity to work on some key projects,
+            including developing an adaptable payment link page that supports
+            diverse payment types, crafting a streamlined and user-friendly
+            invoice page, and designing API collections in Postman. These
+            experiences equipped me with valuable insights into the world of
+            software engineering and sharpened my skills in creating efficient,
+            user-centered solutions.
           </p>
-          <p class="mb-3 fadein-left fadeins-3">
-            &nbsp; &nbsp; &nbsp; If you're interested in connecting or have an
-            exciting opportunity to discuss, please feel free to contact me.
-            Let's build something impactful together!
+          <p class="mb-3 md:mb-7 fadein-left fadeins-3">
+            &nbsp; &nbsp; &nbsp; In my free time, I love diving into personal
+            projects, such as building this interactive portfolio website to
+            quickly apply the latest tools and technologies I’ve learned. These
+            projects are a reflection of my drive to keep growing and exploring
+            new possibilities in software development.
+          </p>
+          <p class="mb-3 fadein-left fadeins-4">
+            &nbsp; &nbsp; &nbsp; I’m excited to bring my skills, creativity, and
+            dedication to a software engineering role where I can contribute
+            meaningfully and keep learning in a dynamic environment. If you're
+            looking for someone who’s ready to make an impact, let’s connect!
+            Together, we can build something extraordinary.
           </p>
         </div>
       </section>
@@ -184,49 +202,80 @@ export default {
   <div class="px-5 py-5 md:px-12 md:py-10 text-left text-amber-50 mx-3">
     <article data-page="about">
       <header>
-        <div class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center">
-          <div class="h-[1px] w-10 bg-stone-400 md:w-20 aos-init aos-animate" data-aos="zoom-in-left"
-            data-aos-duration="600"></div>
+        <div
+          class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center"
+        >
+          <div
+            class="h-[1px] w-10 bg-stone-400 md:w-20 aos-init aos-animate"
+            data-aos="zoom-in-left"
+            data-aos-duration="600"
+          ></div>
           &nbsp; Skills
         </div>
       </header>
       <section>
         <div>
-          <ul class="flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400 mb-5">
+          <ul
+            class="flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400 mb-5"
+          >
             <li class="mr-2">
-              <button class="inline-block px-4 py-3 rounded-lg hover:text-white" :class="{
-                'text-fuchsia-200 bg-slate-200 bg-opacity-10':
-                  activeTab === 1,
-              }" @click="activeTab = 1">
+              <button
+                class="inline-block px-4 py-3 rounded-lg hover:text-white"
+                :class="{
+                  'text-fuchsia-200 bg-slate-200 bg-opacity-10':
+                    activeTab === 1,
+                }"
+                @click="activeTab = 1"
+              >
                 Key Skills
               </button>
             </li>
             <li class="mr-2">
-              <button class="inline-block px-4 py-3 rounded-lg hover:text-white" :class="{
-                'text-fuchsia-200 bg-slate-200 bg-opacity-10':
-                  activeTab === 2,
-              }" @click="activeTab = 2">
+              <button
+                class="inline-block px-4 py-3 rounded-lg hover:text-white"
+                :class="{
+                  'text-fuchsia-200 bg-slate-200 bg-opacity-10':
+                    activeTab === 2,
+                }"
+                @click="activeTab = 2"
+              >
                 Others
               </button>
             </li>
           </ul>
         </div>
         <div v-show="activeTab === 1">
-          <div class="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12">
+          <div
+            class="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12"
+          >
             <div v-for="item in tech" :key="item.id">
               <div
-                class="item-tech flex cursor-pointer items-center gap-2 rounded border border-neutral-200 px-2 py-2 hover:bg-neutral-200 hover:bg-opacity-10 md:gap-3 lg:px-3">
-                <div class="flex h-12 w-12 items-center justify-center p-0 lg:h-16 lg:w-16 lg:p-2 zoom-in">
-                  <img alt="HTML" loading="lazy" width="32" height="32" decoding="async" data-nimg="1"
+                class="item-tech flex cursor-pointer items-center gap-2 rounded border border-neutral-200 px-2 py-2 hover:bg-neutral-200 hover:bg-opacity-10 md:gap-3 lg:px-3"
+              >
+                <div
+                  class="flex h-12 w-12 items-center justify-center p-0 lg:h-16 lg:w-16 lg:p-2 zoom-in"
+                >
+                  <img
+                    alt="HTML"
+                    loading="lazy"
+                    width="32"
+                    height="32"
+                    decoding="async"
+                    data-nimg="1"
                     class="img-tech drop-shadow-xl transition-all duration-300 h-[65%] w-[65%] lg:h-[85%] lg:w-[85%]"
-                    :src="item.imageUrl" style="color: transparent" />
+                    :src="item.imageUrl"
+                    style="color: transparent"
+                  />
                 </div>
                 <div class="flex items-center text-sm md:text-base lg:text-lg">
-                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0">
+                  <div
+                    class="tech font-medium text-secondary transition-all duration-300 translate-y-0"
+                  >
                     {{ item.name }}
                   </div>
                   <div
-                    class="description-tech opacity-0 absolute mt-5 text-[10px] text-sky-300 transition-all duration-300 md:text-xs lg:text-sm">
+                    class="description-tech opacity-0 absolute mt-5 text-[10px] text-sky-300 transition-all duration-300 md:text-xs lg:text-sm"
+                  >
                     {{ item.description }}
                   </div>
                 </div>
@@ -235,16 +284,22 @@ export default {
           </div>
         </div>
         <div v-show="activeTab === 2">
-          <div class="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12">
+          <div
+            class="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12"
+          >
             <div v-for="item in otherSkills" :key="item.id">
               <div
-                class="item-tech flex cursor-pointer items-center gap-2 rounded border border-neutral-500 px-3 py-3 hover:bg-neutral-200 hover:bg-opacity-10 md:gap-3 lg:px-3">
+                class="item-tech flex cursor-pointer items-center gap-2 rounded border border-neutral-500 px-3 py-3 hover:bg-neutral-200 hover:bg-opacity-10 md:gap-3 lg:px-3"
+              >
                 <div class="flex items-center text-sm md:text-base lg:text-lg">
-                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0">
+                  <div
+                    class="tech font-medium text-secondary transition-all duration-300 translate-y-0"
+                  >
                     {{ item.name }}
                   </div>
                   <div
-                    class="description-tech opacity-0 absolute mt-5 text-[10px] text-neutral-200 transition-all duration-300 md:text-xs lg:text-sm">
+                    class="description-tech opacity-0 absolute mt-5 text-[10px] text-neutral-200 transition-all duration-300 md:text-xs lg:text-sm"
+                  >
                     {{ item.description }}
                   </div>
                 </div>
