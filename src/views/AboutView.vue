@@ -162,7 +162,7 @@ export default {
         </div> -->
         <div class="md:w-11/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hello! 👋 I’m Amelia, a first-class Computer
+            &nbsp; &nbsp; &nbsp; Hello! 👋 I’m Amelia, a First-Class Honours Computer
             Science graduate from International Islamic University Malaysia,
             specializing in Software Engineering. My name means “ambitious,” and
             I carry that spirit into everything I do, driven by a passion for
