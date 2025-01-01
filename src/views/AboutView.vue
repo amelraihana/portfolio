@@ -154,48 +154,43 @@ export default {
       </header>
 
       <section
-        class="text-sm md:text-base text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center"
-      >
-        <!-- <div class="flex justify-center">
-          <img class="w-9/12 rounded-full mb-3 fadein-up"
-             src="/amelia.png" alt="ame"> 
-        </div> -->
-        <div class="md:w-11/12">
-          <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hello! 👋 I’m Amelia, a First-Class Honours Computer
-            Science graduate from International Islamic University Malaysia,
-            specializing in Software Engineering. My name means “ambitious,” and
-            I carry that spirit into everything I do, driven by a passion for
-            creating impactful technology solutions. I’ve been committed to
-            programming since my foundation year, and two words that define me
-            are ambitious and dedicated.
-          </p>
-          <p class="mb-3 md:mb-7 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; During my software engineering internship at
-            BetterPay, I had the opportunity to work on some key projects,
-            including developing an adaptable payment link page that supports
-            diverse payment types, crafting a streamlined and user-friendly
-            invoice page, and designing API collections in Postman. These
-            experiences equipped me with valuable insights into the world of
-            software engineering and sharpened my skills in creating efficient,
-            user-centered solutions.
-          </p>
-          <p class="mb-3 md:mb-7 fadein-left fadeins-3">
-            &nbsp; &nbsp; &nbsp; In my free time, I love diving into personal
-            projects, such as building this interactive portfolio website to
-            quickly apply the latest tools and technologies I’ve learned. These
-            projects are a reflection of my drive to keep growing and exploring
-            new possibilities in software development.
-          </p>
-          <p class="mb-3 fadein-left fadeins-4">
-            &nbsp; &nbsp; &nbsp; I’m excited to bring my skills, creativity, and
-            dedication to a software engineering role where I can contribute
-            meaningfully and keep learning in a dynamic environment. If you're
-            looking for someone who’s ready to make an impact, let’s connect!
-            Together, we can build something extraordinary.
-          </p>
-        </div>
-      </section>
+      class="text-sm md:text-base text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center"
+    >
+      <!-- <div class="flex justify-center">
+        <img class="w-9/12 rounded-full mb-3 fadein-up"
+           src="/amelia.png" alt="ame"> 
+      </div> -->
+      <div class="md:w-11/12">
+        <ul class="list-disc list-inside mb-3 md:mb-7 fadein-left fadeins-3">
+          <li>
+            Gained hands-on experience as a <strong>Software Engineer Intern</strong> at 
+            <strong>BetterPay</strong>, a payment gateway company, based in Malaysia.
+            <br><br>
+          </li>
+          
+          <li>
+            Worked on significant projects during the internship, including:
+            <br><br>
+            <ul class="list-disc pl-5">
+              <li><strong>Payment Link</strong><br><br></li>
+              <li><strong>Invoice Page</strong><br><br></li>
+              <li>
+                <strong>Postman API Collections</strong> 
+                <br><br>
+              </li>
+            </ul>
+          </li>
+          
+          <li>
+            Sometimes I build personal projects, such as this 
+            <strong>portfolio website</strong>, to quickly apply and experiment with the technologies that I've learned.
+            <br>
+          </li>
+        </ul>
+      </div>
+    </section>
+    
+    
     </article>
   </div>
 
