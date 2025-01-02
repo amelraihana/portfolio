@@ -18,7 +18,7 @@ export default {
           id: 2,
           name: "IstiqamaTracker",
           images: "portfolio-istiqamatracker",
-          description: "An award-winning comprehensive daily ibadah mobile tracker app for Muslims. Main features include trackers for daily prayers, Quran recitation and memorization, fasting, dhikr, and sadaqah, alongside additional features like user authentication, analytics, prayer times, countdown to the next prayer.",
+          description: "A comprehensive daily ibadah mobile tracker app for Muslims. Main features include trackers for daily prayers, Quran recitation and memorization, fasting, dhikr, and sadaqah, alongside additional features like user authentication, analytics, prayer times, countdown to the next prayer.",
           tech: "SwiftUI, Firebase",
           github: null,
           demo: null,
