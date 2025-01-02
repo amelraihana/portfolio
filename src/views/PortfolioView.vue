@@ -59,7 +59,7 @@ export default {
         },
         {
           id: 3,
-          name: "Postman API Collections",
+          name: "API Design",
           images: "api-design",
           description: "Created Postman collections to streamline the API integration process for BetterPay's PRO and LITE APIs. Merchants can now seamlessly test API calls using the Postman collections designed, making it much easier for them to understand & integrate BetterPay systems.",
           tech: "Postman",
