@@ -46,7 +46,7 @@ export default {
           description: "Designed & developed an efficient payment link page with three distinct payment types, now actively used by merchants. The page dynamically adapts to the payment type and provides a seamless checkout experience to users.",
           tech: "HTML, CSS, JavaScript, jQuery, Bootstrap",
           github: null,
-          demo: "https://payment-link-demo.vercel.app/?invoice-sample-INV0004A",
+          demo: "https://www.betterpay.me/payment/link/?invoice-sample-INV0004A",
         },
         {
           id: 2,
@@ -55,7 +55,7 @@ export default {
           description: "Developed a clear & organized invoice page that dynamically fetches and displays the invoice details from the BetterPay backend API. Merchants can now easily issue professional-looking invoices to their customers.",
           tech: "HTML, CSS, JavaScript, jQuery, Bootstrap",
           github: null,
-          demo: "https://invoice-demo-beige.vercel.app/?id=65f7d307e0f06",
+          demo: "https://www.betterpay.me/payment/invoice/?id=65fbc11acbea5",
         },
         {
           id: 3,
